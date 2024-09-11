@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let word="road";
+        let regex=new RegExp(word,'gi');
+        let str="new road where |Road the cat road is on the old road with another cat";
+        let result=str.match(regex);
+        document.write("matched word is ="+result);
+    </script>
+ 
+</body>
+</html>

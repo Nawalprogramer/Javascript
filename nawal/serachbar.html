@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>enter word to search</p>
+    <input type="text" id="search" placeholder="enter">
+    <button onmouseover="searchword()">Search</button>
+    <p id="output"></p>
+
+    <script>
+        function searchword(){
+            let word =document.getElementById('search').value;
+            let regex = new RegExp(word,"gi");
+            let str = "i study in aptech"
+            let result=str.match(regex);
+            document.getElementById('output').
+            innerHTML = "Matched words="+(result||"no match found");
+        }
+    </script>
+</body>
+</html>
