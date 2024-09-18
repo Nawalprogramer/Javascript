@@ -1,0 +1,35 @@
+#content{
+    text-align: center;
+    background-color: rgb(1, 1, 32);
+    width: 100%;
+    height: 1080px;
+    padding: 10px;
+    
+}
+
+#nawal{
+border: 120px;
+border-radius: 10px;
+width: 100px;
+height: 24px;
+background-color: aqua;
+
+}
+
+#asd{
+    width: 1000px;
+    height: 1000px;
+    background-color: antiquewhite;
+
+}
+
+#box{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+}
+#new{
+    text-align: center;
+}
